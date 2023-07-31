@@ -21,6 +21,9 @@
     <ClCompile Include="自定义数据结构.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="标准库类型string.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Sales_data.h">
