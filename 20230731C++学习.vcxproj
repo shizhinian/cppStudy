@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="decltype.cpp" />
     <ClCompile Include="标准库类型string.cpp" />
+    <ClCompile Include="标准库类型vector.cpp" />
     <ClCompile Include="自定义数据结构.cpp" />
   </ItemGroup>
   <ItemGroup>
