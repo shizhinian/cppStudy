@@ -5,8 +5,12 @@ using namespace std;
 
 int main()
 {
+
 	//aaa 台式机
 	
+
+	//aaa 笔记本
+
 
 
 }
