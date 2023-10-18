@@ -26,6 +26,11 @@ Screen& Screen::set(pos r, pos col, char ch) {
 void Screen::some_member()const {
 	++access_ctr;
 }
+void Window_mgr::clear(ScreenIndex i)
+{
+	Screen& s = screens[i];
+	s.contents = string(s.height * s.width, ' ');
+}
 
 int main() {
 	Screen myscreen;

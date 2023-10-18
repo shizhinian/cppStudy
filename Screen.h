@@ -5,6 +5,7 @@
 using namespace std;
 
 class Screen {
+	friend class Window_mgr;
 public:
 
 	
@@ -38,8 +39,11 @@ private:
 	void do_display(ostream& os)const { os << contents; }
 };
 class Window_mgr {
+public:
+	using ScreenIndex = vector<Screen>::size_type;
+	void clear(ScreenIndex);
 private:
-	vector<Screen> screen{ Screen(24,80,' ') };
+	vector<Screen> screens{ Screen(24,80,' ') };
 };
 
 #endif SCREEN_H
