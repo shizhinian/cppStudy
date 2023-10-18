@@ -140,15 +140,18 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="decltype.cpp" />
+    <ClCompile Include="Screen.cpp" />
     <ClCompile Include="函数.cpp" />
     <ClCompile Include="数组.cpp" />
     <ClCompile Include="标准库类型string.cpp" />
     <ClCompile Include="标准库类型vector.cpp" />
+    <ClCompile Include="类.cpp" />
     <ClCompile Include="自定义数据结构.cpp" />
     <ClCompile Include="迭代器iterator.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Sales_data.h" />
+    <ClInclude Include="Screen.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
