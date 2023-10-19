@@ -32,10 +32,28 @@ void Window_mgr::clear(ScreenIndex i)
 	s.contents = string(s.height * s.width, ' ');
 }
 
+Window_mgr::ScreenIndex
+Window_mgr::addScreen(const Screen& s) {
+	screens.push_back(s);
+	return screens.size() - 1;
+}
+
+
 int main() {
-	Screen myscreen;
+	/*Screen myscreen;
 	char ch = myscreen.get();
 	ch = myscreen.get(0, 0);
 	myscreen.move(4, 0).set('#');
-	cout << "123";
+	cout << "123";*/
+
+	constexpr Debug io_sub(false, true, false); 
+	if (io_sub.any())
+	{
+		cerr << "print appropriate error message" << endl;
+	}
+	constexpr Debug prod(false);
+	if (prod.any())
+	{
+		cerr << "print an error message" << endl;
+	}
 }
