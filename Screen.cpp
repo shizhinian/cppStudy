@@ -39,21 +39,21 @@ Window_mgr::addScreen(const Screen& s) {
 }
 
 
-int main() {
-	/*Screen myscreen;
-	char ch = myscreen.get();
-	ch = myscreen.get(0, 0);
-	myscreen.move(4, 0).set('#');
-	cout << "123";*/
-
-	constexpr Debug io_sub(false, true, false); 
-	if (io_sub.any())
-	{
-		cerr << "print appropriate error message" << endl;
-	}
-	constexpr Debug prod(false);
-	if (prod.any())
-	{
-		cerr << "print an error message" << endl;
-	}
-}
+//int main() {
+//	/*Screen myscreen;
+//	char ch = myscreen.get();
+//	ch = myscreen.get(0, 0);
+//	myscreen.move(4, 0).set('#');
+//	cout << "123";*/
+//
+//	constexpr Debug io_sub(false, true, false); 
+//	if (io_sub.any())
+//	{
+//		cerr << "print appropriate error message" << endl;
+//	}
+//	constexpr Debug prod(false);
+//	if (prod.any())
+//	{
+//		cerr << "print an error message" << endl;
+//	}
+//}

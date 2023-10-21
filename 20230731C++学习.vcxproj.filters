@@ -42,6 +42,9 @@
     <ClCompile Include="Screen.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="顺序容器.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Sales_data.h">

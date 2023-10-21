@@ -148,6 +148,7 @@
     <ClCompile Include="类.cpp" />
     <ClCompile Include="自定义数据结构.cpp" />
     <ClCompile Include="迭代器iterator.cpp" />
+    <ClCompile Include="顺序容器.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Sales_data.h" />
