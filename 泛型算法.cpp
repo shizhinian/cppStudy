@@ -34,14 +34,14 @@ void biggies(vector<string>& words, vector<string>::size_type sz) {
 	cout << endl;
 }
 
-int main() {
-	vector<int> x = { 1,2,3,4,5 };
-	int val = 2;
-	auto result = find(x.begin(), x.end(), val);
-
-	cout << "The value " << val << (result == x.cend() ? " is not present" : " is present") << endl;
-
-	vector<string> s = { "fox","jumps","over","quick","red","slow","the","turtle" };
-
-	biggies(s, 4);
-}
+//int main() {
+//	vector<int> x = { 1,2,3,4,5 };
+//	int val = 2;
+//	auto result = find(x.begin(), x.end(), val);
+//
+//	cout << "The value " << val << (result == x.cend() ? " is not present" : " is present") << endl;
+//
+//	vector<string> s = { "fox","jumps","over","quick","red","slow","the","turtle" };
+//
+//	biggies(s, 4);
+//}

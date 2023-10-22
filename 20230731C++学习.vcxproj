@@ -142,6 +142,7 @@
     <ClCompile Include="decltype.cpp" />
     <ClCompile Include="Screen.cpp" />
     <ClCompile Include="函数.cpp" />
+    <ClCompile Include="动态内存.cpp" />
     <ClCompile Include="数组.cpp" />
     <ClCompile Include="标准库类型string.cpp" />
     <ClCompile Include="标准库类型vector.cpp" />
