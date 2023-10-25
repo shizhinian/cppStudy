@@ -52,7 +52,10 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="TextQuery.cpp">
-      <Filter>头文件</Filter>
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HasPtr.cpp">
+      <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -68,5 +71,11 @@
     <ClInclude Include="TextQuery.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="HasPtr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
 </Project>

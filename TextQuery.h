@@ -8,7 +8,6 @@
 using namespace::std;
 
 class QueryResult {
-
 	friend ostream& print(ostream&, const QueryResult&);
 public:
 	QueryResult(string qw, set<int> ln, shared_ptr<vector<string>> te):queryWord(qw),lineNumber(ln),texts(te){}
@@ -16,7 +15,6 @@ private:
 	string queryWord;//查询的单词
 	set<int> lineNumber;//该单词所有出现过的行号
 	shared_ptr<vector<string>> texts;
-
 };
 
 class TextQuery {
@@ -32,7 +30,6 @@ public:
 private:
 	shared_ptr<vector<string>> texts;
 	map<string, set<int>> map2;
-
 };
 
 

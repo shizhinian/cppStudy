@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="QueryResult" Collapsed="true">
+    <Position X="10.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAICAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>TextQuery.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TextQuery" Collapsed="true">
+    <Position X="9" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAQAAAAAAAAAAAAAAAAAIAAAAIAAAAAAA=</HashCode>
+      <FileName>TextQuery.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
