@@ -39,13 +39,13 @@ HasPtr::~HasPtr(){
 }
 
 
-int main() {
-	HasPtr hp1("abc");
-
-	HasPtr hp2;
-
-	hp2 = hp1;
-	cout << "hp1:" << hp1.ps << endl << "hp1:" << hp2.ps;
-	cout <<"hp1:"<< *hp1.use <<endl <<"hp1:"<< *hp2.use;
-	//HasPtr(hp1);
-}
+//int main() {
+//	HasPtr hp1("abc");
+//
+//	HasPtr hp2;
+//
+//	hp2 = hp1;
+//	cout << "hp1:" << hp1.ps << endl << "hp1:" << hp2.ps;
+//	cout <<"hp1:"<< *hp1.use <<endl <<"hp1:"<< *hp2.use;
+//	//HasPtr(hp1);
+//}

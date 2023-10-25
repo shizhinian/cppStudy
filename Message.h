@@ -11,6 +11,8 @@ class Folder {
 	friend class Message;
 public:
 	Folder(string name) :name(name) {};
+	void addMsg(Message*);
+	void remMsg(Message*);
 private:
 	string name;//文件夹的名字
 	set<Message*> message;//包含哪些message
@@ -22,12 +24,12 @@ public:
 	//构造函数
 	Message(string txt):txt(txt){}
 
-	Message& save(Folder& );
-	Message& remove(Folder& );
+	void save(Folder& );
+	void remove(Folder& );
 
-	~Message();
+	//~Message();
 private:
 	string txt;//消息文本
-	set<Folder*> floder;//所在Folder的指针的set
+	set<Folder*> folder;//所在Folder的指针的set
 
 };
