@@ -1,2 +1,2 @@
 # cppStudy
-this is a repotory for my c++ study
+this is a repository for my c++ study
