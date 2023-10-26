@@ -24,6 +24,9 @@ public:
 	//拷贝赋值运算符,如果类未定义自己的拷贝赋值运算符，编译器会生成一个合成拷贝运算符
 	HasPtr& operator=(const HasPtr&);
 	~HasPtr();
+
+	//移动构造函数
+	HasPtr(HasPtr&& p) noexcept :ps(p.ps), i(p.i) { p.ps = 0; }
 private:
 	string* ps;
 	int i;

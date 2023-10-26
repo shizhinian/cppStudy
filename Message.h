@@ -23,13 +23,18 @@ class Message {
 public:
 	//构造函数
 	Message(string txt):txt(txt){}
+	Message(const Message& );
+	Message& operator=(const Message&);
 
 	void save(Folder& );
 	void remove(Folder& );
 
-	//~Message();
+	~Message();
 private:
 	string txt;//消息文本
 	set<Folder*> folder;//所在Folder的指针的set
+
+	void add_to_Folders(const Message&);
+	void remove_from_Folders();
 
 };
