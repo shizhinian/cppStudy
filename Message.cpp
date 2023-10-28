@@ -42,6 +42,11 @@ void Folder::addMsg(Message* mg) {
 	message.insert(mg);
 }
 
+
+
+
+
+
 void Folder::remMsg(Message* mg) {
 	message.erase(mg);
 }

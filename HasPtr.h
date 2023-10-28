@@ -26,6 +26,7 @@ public:
 	~HasPtr();
 
 	//移动构造函数
+
 	HasPtr(HasPtr&& p) noexcept :ps(p.ps), i(p.i) { p.ps = 0; }
 private:
 	string* ps;
