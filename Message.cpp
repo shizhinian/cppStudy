@@ -40,6 +40,7 @@ void Message::remove(Folder& fd) {
 
 void Folder::addMsg(Message* mg) {
 	message.insert(mg);
+	//
 }
 
 
