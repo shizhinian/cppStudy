@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Concurrency support library.cpp" />
     <ClCompile Include="decltype.cpp" />
     <ClCompile Include="HasPtr.cpp" />
     <ClCompile Include="Message.cpp" />

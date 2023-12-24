@@ -62,26 +62,26 @@ void Message::remove_from_Folders() {
 		f->remMsg(this);
 }
 
-int main() {
-	Folder fd1("floder-1");
-	Folder fd2("floder-2");
-	Message mg("this is a txt");
-	mg.save(fd1);
-	mg.save(fd2);
-	//mg.save(fd2);
-
-	//int i = 4;
-	//int& r = i;
-	////int&& rr = i;//无法将右值引用绑定到左值
-	////int& r2 = i * 4;//非常量引用的初始值必须为左值
-	//const int& r3 = i * 4;
-	//int&& rr2 = i * 4;
-	//int&& rr3 = rr2;
-
-	/*int f();
-	vector<int> vi(100);
-	int&& r1 = f();
-	int& r2 = vi[0];
-	int& r3 = r1;
-	int&& r4 = vi[0] * f();*/
-}
+//int main() {
+//	Folder fd1("floder-1");
+//	Folder fd2("floder-2");
+//	Message mg("this is a txt");
+//	mg.save(fd1);
+//	mg.save(fd2);
+//	//mg.save(fd2);
+//
+//	//int i = 4;
+//	//int& r = i;
+//	////int&& rr = i;//无法将右值引用绑定到左值
+//	////int& r2 = i * 4;//非常量引用的初始值必须为左值
+//	//const int& r3 = i * 4;
+//	//int&& rr2 = i * 4;
+//	//int&& rr3 = rr2;
+//
+//	/*int f();
+//	vector<int> vi(100);
+//	int&& r1 = f();
+//	int& r2 = vi[0];
+//	int& r3 = r1;
+//	int&& r4 = vi[0] * f();*/
+//}
